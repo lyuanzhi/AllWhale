@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jumbox.demo.mbg.mapper.EventTrackingMapper">
+  <resultMap id="BaseResultMap" type="com.jumbox.demo.mbg.pojo.EventTracking">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="user_id" jdbcType="VARCHAR" property="userId" />
+    <result column="user_ip" jdbcType="VARCHAR" property="userIp" />
+    <result column="user_event" jdbcType="VARCHAR" property="userEvent" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Oxcean-dev.iml" filepath="$PROJECT_DIR$/Oxcean-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common.iml" filepath="$PROJECT_DIR$/demo-common/demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-controller/demo-controller.iml" filepath="$PROJECT_DIR$/demo-controller/demo-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-mbg/demo-mbg.iml" filepath="$PROJECT_DIR$/demo-mbg/demo-mbg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-service/demo-service.iml" filepath="$PROJECT_DIR$/demo-service/demo-service.iml" />
+    </modules>
+  </component>
+</project>

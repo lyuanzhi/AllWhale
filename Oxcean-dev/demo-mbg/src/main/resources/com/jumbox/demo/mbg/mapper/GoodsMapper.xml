@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jumbox.demo.mbg.mapper.GoodsMapper">
+  <resultMap id="BaseResultMap" type="com.jumbox.demo.mbg.pojo.Goods">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="user_id" jdbcType="VARCHAR" property="userId" />
+    <result column="wx_number" jdbcType="VARCHAR" property="wxNumber" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="detailed_desc" jdbcType="VARCHAR" property="detailedDesc" />
+    <result column="price" jdbcType="DOUBLE" property="price" />
+    <result column="old_price" jdbcType="DOUBLE" property="oldPrice" />
+    <result column="img_number" jdbcType="INTEGER" property="imgNumber" />
+    <result column="second_hand_type" jdbcType="VARCHAR" property="secondHandType" />
+    <result column="goods_type" jdbcType="VARCHAR" property="goodsType" />
+    <result column="how_new_type" jdbcType="VARCHAR" property="howNewType" />
+    <result column="pick_up_type" jdbcType="VARCHAR" property="pickUpType" />
+    <result column="location_type" jdbcType="VARCHAR" property="locationType" />
+    <result column="house_type" jdbcType="VARCHAR" property="houseType" />
+    <result column="ensuite_type" jdbcType="VARCHAR" property="ensuiteType" />
+    <result column="price_type" jdbcType="VARCHAR" property="priceType" />
+    <result column="tenancy_type" jdbcType="VARCHAR" property="tenancyType" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+    <result column="is_cancelled" jdbcType="INTEGER" property="isCancelled" />
+    <result column="is_deleted" jdbcType="INTEGER" property="isDeleted" />
+  </resultMap>
+</mapper>

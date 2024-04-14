@@ -1,0 +1,182 @@
+{
+	"pages": [{
+		"path": "pages/community/community",
+		"style": {
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/login/login",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/info/info",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/goods/goods",
+		"style": {
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/release/release_1",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/release/release_2",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/release/release_3",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/release/release_4",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/chat/chat",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/location/location",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/detailInfo/detailInfo",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/search/search",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/searchResult/searchResult",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/myWechat/myWechat",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/myCollection/myCollection",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/myGoods/myGoods",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/mySchool/mySchool",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/myHouse/myHouse",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/detailTopic/detailTopic",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/detialActivity/detialActivity",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/myTopic/myTopic",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/myActivity/myActivity",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/about/about",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/search1/search1",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/searchResult1/searchResult1",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+	}],
+	"tabBar": {
+		"color": "#FFFFFF",
+		"selectedColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/community/community"
+			},
+			{
+				"pagePath": "pages/goods/goods"
+			},
+			{
+				"pagePath": "pages/info/info"
+			},
+			{
+				"pagePath": "pages/my/my"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"navigationStyle": "custom"
+	},
+	"condition": {
+		"current": 1,
+		"list": [{
+				"name": "chat",
+				"path": "pages/chat/chat",
+				"query": ""
+			},
+			{
+				"name": "detailInfo",
+				"path": "pages/detailInfo/detailInfo",
+				"query": ""
+			},
+			{
+				"name": "detailTopic",
+				"path": "pages/detailTopic/detailTopic",
+				"query": ""
+			},
+			{
+				"name": "detailActivity",
+				"path": "pages/detialActivity/detialActivity",
+				"query": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="MysqlContext" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+        <property name="autoDelimitKeywords" value="true"/>
+        <property name="javaFileEncoding" value="UTF-8"/>
+
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="com.jumbox.demo.mbg.MyMapper"/>
+        </plugin>
+
+        <!--  mysql版本更新后 要加 serverTimezone=GMT -->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://oxceanuk.com:3306/OxceanDB?serverTimezone=GMT"
+                        userId="root"
+                        password="OXjingxi2021">
+            <property name="nullCatalogMeansCurrent" value="true"/>
+        </jdbcConnection>
+
+        <!-- 对应生成的pojo所在包 -->
+        <javaModelGenerator targetPackage="com.jumbox.demo.mbg.pojo" targetProject="demo-mbg/src/main/java"/>
+		<!-- 对应生成的mapper所在目录 -->
+        <sqlMapGenerator targetPackage="com.jumbox.demo.mbg.mapper" targetProject="demo-mbg/src/main/resources"/>
+        <!-- 配置mapper对应的java映射 -->
+        <javaClientGenerator targetPackage="com.jumbox.demo.mbg.mapper" targetProject="demo-mbg/src/main/java"
+                             type="XMLMAPPER"/>
+
+        <!--生成全部表tableName设为% -->
+		<table tableName="%" delimitIdentifiers="true">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+    </context>
+</generatorConfiguration>
