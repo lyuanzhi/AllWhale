@@ -8,14 +8,15 @@ After almost half a month of preparation, we started the development stage, with
 
 ## Tech Stack
 1. Java
-2. Spring Boot
-3. WebSocket
-4. MySQL
-5. MyBatis
-6. Redis
-7. JavaScript
-8. uni-app (based on vue)
-9. Apache Tomcat
+2. Maven
+3. Spring Boot
+4. WebSocket
+5. MySQL
+6. MyBatis
+7. Redis
+8. JavaScript
+9. uni-app (based on vue)
+10. Apache Tomcat
 
 ## Deploy
 ### Note
@@ -43,4 +44,23 @@ Then you can scan the QR code with WeChat to request access permission.
 ![](imgs/oxcean.png)
 
 ## Demo Screenshots
-
+### Forum
+![](imgs/forum0.jpg)
+![](imgs/forum1.jpg)
+### Search
+![](imgs/search.jpg)
+### Activities Organization
+![](imgs/activity0.jpg)
+![](imgs/activity1.jpg)
+### Second-hand
+![](imgs/secondhand0.jpg)
+![](imgs/secondhand1.jpg)
+### Chat
+![](imgs/communication0.jpg)
+![](imgs/communication1.jpg)
+### Publish
+![](imgs/release0.jpg)
+![](imgs/release1.jpg)
+### About us
+![](imgs/me.jpg)
+![](imgs/about.jpg)
