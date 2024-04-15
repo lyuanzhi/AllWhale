@@ -45,22 +45,14 @@ Then you can scan the QR code with WeChat to request access permission.
 
 ## Demo Screenshots
 ### Forum
-![](imgs/forum0.jpg)
-![](imgs/forum1.jpg)
-### Search
-![](imgs/search.jpg)
+![](imgs/forum.png)
 ### Activities Organization
-![](imgs/activity0.jpg)
-![](imgs/activity1.jpg)
+![](imgs/activity.png)
 ### Second-hand
-![](imgs/secondhand0.jpg)
-![](imgs/secondhand1.jpg)
+![](imgs/secondhand.png)
 ### Chat
-![](imgs/communication0.jpg)
-![](imgs/communication1.jpg)
+![](imgs/communication.png)
 ### Publish
-![](imgs/release0.jpg)
-![](imgs/release1.jpg)
+![](imgs/release.png)
 ### About us
-![](imgs/me.jpg)
-![](imgs/about.jpg)
+![](imgs/me.png)
