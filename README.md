@@ -21,7 +21,7 @@ After almost half a month of preparation, we started the development stage, with
 ## Deploy
 ### Note
 1. The WeChat Mini Program Account: ```AllWhaleLYZ```
-2. The server IP address: ```34.41.117.214```
+2. The server IP address: ```35.238.239.226```
 
 ### Front-end: ```WeChat Mini Program```
 1. set up the server address
